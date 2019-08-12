@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/review/review",
+    "pages/lession/lession",
+    "pages/shop/shop",
+    "pages/friends/friends"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#edece8",
+    "navigationBarTitleText": "百词斩",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#b1aea9",
+    "selectedColor": "#42aff4",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/images/首页.png",
+        "selectedIconPath": "/assets/images/首页-active.png"
+      },
+      {
+        "pagePath": "pages/review/review",
+        "text": "复习",
+        "iconPath": "/assets/images/待办.png",
+        "selectedIconPath": "/assets/images/待办-active.png"
+      },
+      {
+        "pagePath": "pages/lession/lession",
+        "text": "小讲堂",
+        "iconPath": "/assets/images/学士帽.png",
+        "selectedIconPath": "/assets/images/学士帽-active.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "周边",
+        "iconPath": "/assets/images/淘宝.png",
+        "selectedIconPath": "/assets/images/淘宝-active.png"
+      },
+      {
+        "pagePath": "pages/friends/friends",
+        "text": "圈子",
+        "iconPath": "/assets/images/圈子.png",
+        "selectedIconPath": "/assets/images/圈子-active.png"
+      }
+    ]
+  }
+}

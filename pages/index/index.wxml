@@ -1,0 +1,72 @@
+<view class="container">
+  <!-- 头部 -->
+  <view class="header">
+    <view class="header-left  bindtap=" showMore>
+      <text class="iconfont icon-sandianshicaidan"></text>
+      <view class="header-avatar">
+        <open-data type="userAvatarUrl" />
+      </view>
+    </view>
+    <view class="header-right">
+      <view catchtap="searchWord">
+        <text class="iconfont icon-sousuo1"></text>
+        <text class="search-word">查词</text>
+      </view>
+      <view class="header-right__calendar" catchtap="showCsalendar">
+        <text class="iconfont icon-weibiaoti--"></text>
+        <text>日历</text>
+      </view>
+    </view>
+  </view>
+  <!-- 进度和计划部分 -->
+  <view class="progress">
+    <view class="progress-plan">
+      <view class="progress-plan__left">
+        <text class="font-color text">剩余</text>
+        <text class="big">
+          93<text class="small">天</text>
+        </text>
+      </view>
+      <view class="progress-plan__right">
+        <text class="font-color">今日单词</text>
+        <text class="big">
+          10<text class="small">个</text>
+        </text>
+      </view>
+    </view>
+    <view class="progress-all">
+      <view class="progress-all__left">
+        <view class="words-range">四级词汇</view>
+        <view class="book">
+          <text class="iconfont icon-shu"></text>
+          <text> 查看实体书籍</text>
+        </view>
+      </view>
+      <view class="progress-all__right">修改计划</view>
+    </view>
+    <view class="progress-complete">
+      <view class="progress-complete__top">
+        <view>已学完 2559 / 3486</view>
+        <view class="icons">
+          <view>
+            <view class="iconfont icon-xiazai"></view>
+            <view>下载离线包</view>
+          </view>
+          <view>
+            <view class="iconfont icon-liebiao"></view>
+            <view>单词列表</view>
+          </view>
+        </view>
+      </view>
+      <view class="progress-complete__bottom">
+        <view class="inner"></view>
+      </view>
+    </view>
+  </view>
+  <!-- 底部按钮 -->
+  <view class="footer">
+    <view>今日需新学10/10 今日需复习1</view>
+    <button class="start">开始背单词吧</button>
+    <button class="read">爱阅读</button>
+  </view>
+</view>
